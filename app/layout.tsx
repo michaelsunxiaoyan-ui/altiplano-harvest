@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://altiplano-harvest.example"),
+  metadataBase: new URL("https://altiplano-harvest.vercel.app"),
   title: { default: "Altiplano Harvest | Bolivian Quinoa & Chia Supplier", template: "%s | Altiplano Harvest" },
   description: "Bulk Bolivian Royal Quinoa and Chia Seeds for food importers, distributors and wholesale buyers worldwide.",
   keywords: ["Bolivian quinoa supplier", "Royal Quinoa bulk", "chia seeds wholesale", "superfood ingredients", "B2B food supplier"],
